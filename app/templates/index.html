@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Blog Card - Home
+{% endblock %}
+
+{% block content %}
+    <div class="blog_card">
+        <div class="blog_card_contents">
+            <img src="/static/images/illustration.svg" alt="Illustration">
+            <p class="tag">Learning</p>
+            <p class="published">Published 9th Jan 2023</p>
+            <h2>HTML & CSS foundations</h2>
+            <p class="description">There languages are the backbone of every website, defining structure, content, and presentation</p>
+
+            <div class="author">
+                <img src="/static/images/profile_pic.jpeg" alt="profile picture">
+                <p class="name"> Taylor Shredder</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
